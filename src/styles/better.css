@@ -1,0 +1,613 @@
+.header {
+  font-family: NeueMontreal-Bold;
+  text-align: center;
+}
+.header h1 {
+  font-size: 2.7rem;
+  margin-bottom: 0px;
+}
+.topText {
+  padding: 0% 25%;
+  font-size: 1.2rem;
+  font-family: NeueMontreal-Medium;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  color: #949494;
+}
+
+.blogContainer {
+  display: flex;
+  flex-direction: row;
+}
+.image-container1 {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 2s ease-in-out;
+  transition-duration: 3s;
+  flex-direction: row;
+}
+
+.blogContainer button {
+  background-color: black;
+  border-style: none;
+}
+.CardbuttonContainer button {
+  background-color: #2d2d2d;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: large;
+}
+
+.CardbuttonContainer {
+  align-items: center;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxgfather {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.boxfather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.betterbox {
+  height: 24rem;
+  width: 30%;
+  border-radius: 2rem;
+  background: purple;
+  padding: 2rem;
+  margin: 1.2rem 1.2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.betterbox1 {
+  background: linear-gradient(113.01deg, #8c46ff -2.72%, #b080ff 111.29%);
+  background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747054/Real_world_use_pgdual.png);
+}
+
+.betterbox2 {
+  background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747065/Group_45_jkcruk.png);
+}
+
+.betterbox3 {
+  background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747054/Real_world_use-2_s95o6o.png);
+}
+
+.betterbox4 {
+  background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747065/Group_46_qfdwro.png);
+}
+
+.betterbox5 {
+  background-color: rgb(27, 27, 28);
+  width: 25%;
+  padding-left: 2.5rem;
+}
+
+.betterbox5 .headerText {
+  font-family: "NeueMontreal-Regular";
+  font-weight: normal;
+  font-size: 3rem;
+  text-align: left;
+  line-height: 50px;
+}
+
+.betterbox5 .mainText {
+  color: #b4b4b4;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.betterbox6 {
+  background-color: #151516;
+  width: 27%;
+  height: 33rem;
+}
+
+.betterbox6 .headerText {
+  text-align: left;
+  font-family: "NeueMontreal-Regular";
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 50px;
+  text-overflow: clip;
+  height: fit-content;
+}
+
+.betterbox6 .mainText {
+  color: #b4b4b4;
+  text-align: left;
+}
+
+.betterbox6 .topText {
+  padding: 0px;
+  text-align: left;
+}
+
+.betterbox7 {
+  background-color: rgb(27, 27, 28);
+  width: 25%;
+  padding-left: 2.5rem;
+  border-radius: 10px;
+  height: 30em;
+  display: flex;
+}
+
+.betterbox7 .headerImg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerImg img {
+  width: 160px;
+  height: 172px;
+}
+
+.betterbox7 .mainText {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-align: left;
+  height: 86px;
+  width: 100%;
+  font-family: Regular;
+}
+
+.readNow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.readNowBtn button {
+  background-color: #2d2d2d;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.readNowImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.line1 {
+  width: 20%;
+  border: 0.01px solid white;
+  margin: 2rem 0 2rem 0;
+  font-family: Regular;
+}
+.img-containerf {
+  width: 100%;
+  max-height: 378.24px;
+  transition-duration: 1.5s;
+  transition: width 2s ease-in-out;
+}
+
+.image-container1 {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 2s ease-in-out;
+  transition-duration: 3s;
+  max-height: 378.24px;
+}
+
+.image {
+  width: 50%;
+}
+
+.expanded {
+  transition-duration: 1.5s;
+}
+
+.expanded:nth-of-type(1) {
+  width: 18%;
+}
+
+.expanded:nth-of-type(2) {
+  width: 21%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.mainText {
+  text-align: center;
+}
+
+.headerText {
+  height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: SemiBold;
+}
+
+.blogvtbutton {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blogvtbutton .bvtb1 {
+  background-color: #6262625c;
+  padding-top: 5px;
+  border-radius: 90px;
+  border-style: none;
+  margin-right: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+
+.buttonstuff {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonstuff:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.buttonstuff:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.slider1 {
+  background: black;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slider1::before,
+.slider1::after {
+  background: linear-gradient(to right, #222 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider1::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider1::before {
+  left: 0;
+  top: 0;
+}
+.slider1 .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider1 .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.slider2 {
+  background: black;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  direction: ltr;
+  transform: scaleX(-1);
+}
+
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(to left, #222 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider2::after {
+  left: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider2::before {
+  right: 0;
+  top: 0;
+}
+.slider2 .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider2 .slide {
+  height: 100px;
+  width: 250px;
+  direction: rtl;
+  transform: scaleX(-1);
+}
+
+#nftheader {
+  font-family: Benzin-Regular;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 22px;
+  font-size: 26px;
+}
+#nftheader span {
+  text-align: center;
+}
+.NFTbutton {
+  background-color: #fff;
+  border-style: none;
+  font-weight: bold;
+  color: #000;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 25px;
+  padding-left: 25px;
+  align-items: center;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.expanded {
+  transition-duration: 1.5s;
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  .buttonstuff {
+    padding: 13px 50px 13px;
+  }
+}
+
+.imagecard {
+  width: 50%;
+}
+@font-face {
+  font-family: NeueMontreal-Bold;
+  src: url("NeueMontreal-Bold.otf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Medium;
+  src: url("NeueMontreal-Medium.otf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Regular;
+  src: url("NeueMontreal-Regular.otf");
+}
+
+@font-face {
+  font-family: Cred;
+  src: url("FontsFree-Net-Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: Benzin-Medium;
+  src: url("benzin-medium.ttf");
+}
+
+@font-face {
+  font-family: Benzin-Regular;
+  src: url("benzin-regular.ttf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Light;
+  src: url("benzin-medium.ttf");
+}
+
+@media screen and (max-width: 800px) {
+  .betterbox {
+    width: 90vw;
+    margin: 1rem 0 0 0;
+  }
+
+  .imagecard {
+    width: 90%;
+  }
+
+  .topText {
+    padding: 0% 5%;
+  }
+
+  .header {
+    padding: 0 2%;
+  }
+
+  .expanded {
+    transition-duration: 1.5s;
+  }
+
+  .expanded:nth-of-type(1) {
+    width: 30%;
+  }
+
+  .expanded:nth-of-type(2) {
+    width: 35%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .expanded:nth-of-type(3) {
+    width: 90%;
+  }
+}
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.ximg {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.Imgcarousel {
+  height: 13.5em;
+  width: auto;
+  margin-right: 70px;
+}
+
+.marquee-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap as per your preference */
+  overflow: hidden;
+  height: 200px;
+}
+
+.marquee-item {
+  margin-right: 5px; /* Adjust the gap as per your preference */
+  flex-shrink: 0;
+}
+
+@media (max-width: 1415px) and (min-width: 767px) {
+  .readNowImg {
+    display: none;
+  }
+}
+@media (max-width: 768px) and (min-width: 414px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+  .blogContainer .blogButton {
+    display: none;
+  }
+  .blogvtbutton {
+    display: flex;
+  }
+  .betterbox6:nth-of-type(2) {
+    display: none;
+  }
+  #nftheader span {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 415px) and (min-width: 30px) {
+  .readNowImg img {
+    display: none;
+  }
+  .betterbox6 .mainText {
+    margin-top: 30px;
+  }
+  .blogContainer .blogButton {
+    display: none;
+  }
+  .blogvtbutton {
+    display: flex;
+  }
+
+  .betterbox6:nth-of-type(2) {
+    display: none;
+  }
+
+  .blogContainer {
+    justify-content: center;
+  }
+  #nftheader span {
+    font-size: 22px;
+    margin-left: 18px;
+  }
+}
